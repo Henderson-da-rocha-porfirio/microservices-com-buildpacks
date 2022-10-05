@@ -1,4 +1,4 @@
-# Loans(Emprestimo) Service Dockerizada
+# Loans(Emprestimo) Service Dockerizada sem definições no Dockerfile
 ### Acessando ao H2
 ### - Lembrar:
 #### a. Criar um arquivo sql: data.sql
@@ -68,7 +68,7 @@ geração de assets e até mesmo compilação arquivos, dentro da plataforma Her
 </plugins>
 ````
 
-### Rodar o comando que usa buildpacks para gerar uma imagem docker para o projeto:
+### Rodar o comando dentro do diretório com o pom.xml, que usa buildpacks, para gerar uma imagem docker para o projeto:
 ````
 mvn spring-boot:build-image
 ````
